@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:rgba(27, 36, 87, 0.384);
+  color: #333;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #5c3535bb;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(31, 65, 87, 0.521);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+input[type="text"],
+select,
+button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #737d86;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.tag.Friend {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.tag.Family {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.tag.Colleague {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.buttons button {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+}
+
+.buttons button:nth-child(1) {
+  background-color: #28a745;
+}
+
+.buttons button:nth-child(2) {
+  background-color: #ffc107;
+}
+
+.buttons button:nth-child(3) {
+  background-color: #dc3545;
+}
+
